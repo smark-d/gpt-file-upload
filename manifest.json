@@ -1,0 +1,20 @@
+{
+   "action": {
+   },
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "https://chat.openai.com/*", "https://chat.zhile.io/*" ]
+   } ],
+   "description": "A Chrome extension that allows you to upload large files in chunks.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjqyhYm2D1NX9BRJZNIyxubwozvhWfZ0ESrV7+5b7jJ44+fNl7oTfTOCRXl9WEvuaPf26Jd7wFGksV06ga8/FdP7a3xt3291LiOZ/P1UoYWrRYE1OTzlQA/wGxf5uXv2eESCWbsXgrmGOuoie+qBmFxE0Z3J93F5EElLcbYewsXf8Z1Y+X7V+O3tW/pNj0UyzY5aXyOqeWPFjnm1fxI9/4NWsovq7mW9R4HcwkJYFX36h6Fji+vPuETG6iWQHfIxs1lHWIXmPvbR4xaYsXK+n02LExwSUDzjY2ZyXahgTezd+3CdbLhyfOGUSXrKXHTSAYANAD3u6C0kONsYrjWkrwQIDAQAB",
+   "manifest_version": 3,
+   "name": "ChatGPT File Uploader",
+   "permissions": [ "*://chat.openai.com/*", "*://chat.zhile.io/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}
